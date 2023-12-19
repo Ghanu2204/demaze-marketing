@@ -11,7 +11,7 @@ export const Menuitem = [
   },
   {
     title: "Services",
-    url: "/services",
+    url: "#services",
     cName: "menu-items",
   },
   {
