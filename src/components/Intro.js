@@ -2,7 +2,7 @@ import "./IntroStyles.css";
 
 function Intro() {
   return (
-    <>
+    <div id="home">
       <div className="outer-container">
         <div className="inner-container">
           <div className="left-section">
@@ -18,7 +18,7 @@ function Intro() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

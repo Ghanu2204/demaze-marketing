@@ -1,12 +1,12 @@
 export const Menuitem = [
   {
     title: "Home",
-    url: "/",
+    url: "#home",
     cName: "menu-items",
   },
   {
     title: "About",
-    url: "/about",
+    url: "#about",
     cName: "menu-items",
   },
   {
@@ -15,8 +15,13 @@ export const Menuitem = [
     cName: "menu-items",
   },
   {
+    title: "Solutions",
+    url: "#solutions",
+    cName: "menu-items",
+  },
+  {
     title: "Contact",
-    url: "/contact",
+    url: "#contact",
     cName: "menu-items-mobile",
   },
 ];

@@ -7,6 +7,7 @@ function ServiceData(props) {
         <img alt="image" src={props.image} />
       </div>
       <h4>{props.heading}</h4>
+      <hr />
       <p>{props.text}</p>
     </div>
   );

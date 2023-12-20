@@ -6,7 +6,7 @@ function Services() {
     <div id="services">
       <div className="outer">
         <div>
-          <h2>Our Services</h2>
+          <h2>Our <span>Services</span></h2>
           <p>
             The service we offer is specifically designed to meet your needs.{" "}
           </p>

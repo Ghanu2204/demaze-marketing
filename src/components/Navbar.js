@@ -1,7 +1,8 @@
 import { Component } from "react";
 import "./NavbarStyles.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Menuitem } from "./Menuitem";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -12,7 +13,7 @@ class Navbar extends Component {
     return (
       <>
         <nav className="navbar">
-          <img alt="logo" src="/images/logo.png" />
+          <AnchorLink href="#home"><img alt="logo" src="/images/logo.png" /></AnchorLink>
           <div className="menu-icons" onClick={this.handleClicked}>
             <i
               className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
@@ -22,13 +23,13 @@ class Navbar extends Component {
             {Menuitem.map((item, index) => {
               return (
                 <li key={index}>
-                  <a href={item.url} className={item.cName}>
+                  <AnchorLink href={item.url} className={item.cName}>
                     {item.title}
-                  </a>
+                  </AnchorLink>
                 </li>
               );
             })}
-            <button><a href="/contact">Contact Us</a></button>
+            <button className="btn-nav"><AnchorLink href="#contact">Contact Us</AnchorLink></button>
           </ul>
         </nav>
       </>

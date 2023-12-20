@@ -45,6 +45,7 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-style: italic;
+    padding-right: 5px;
 }
 
 .btn-contact {
