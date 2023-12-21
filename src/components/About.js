@@ -18,6 +18,7 @@ function About() {
               talents who promote the value of effective communication and
               process transparency.
             </p>
+            <br/>
             <p>
               We are believers in change! A change is driven by technology and
               innovation. We help individuals, start-ups, businesses, and
@@ -34,7 +35,7 @@ function About() {
             <h3><span>What</span> We Do Best?</h3>
           </div>
           <div className="about-text">
-            <p>We add the value to your idea's execution.</p>
+            <p>We add the value to your idea's execution.</p><br/>
             <p>
               We start by listening to the ideas, issues, requirements,
               challenges and objectives. The process continues with an effort to

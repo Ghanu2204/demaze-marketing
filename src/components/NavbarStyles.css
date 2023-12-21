@@ -14,7 +14,6 @@
 
 .navbar img {
     height: 4rem;
-    padding-left: 100px;
     cursor: pointer;
 }
 
@@ -71,8 +70,9 @@ button:hover {
     box-shadow: 0 0 12px 2px rgb(119, 162, 255);
 }
 
-@media screen and (max-width:850px) {
+/* @media screen and (max-width:850px) {
     .navbar {
+        height: 70px;
         z-index: 999;
     }
 
@@ -95,7 +95,7 @@ button:hover {
         right: -100%;
         opacity: 0;
         align-items: stretch;
-        padding: 90px 0 20px 0;
+        padding: 70px 0 20px 0;
         margin: 0;
         transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -111,7 +111,7 @@ button:hover {
         display: block;
         width: 100%;
         font-size: 1.2rem;
-        padding: 2rem 3.5rem;
+        padding: 1.5rem 3.5rem;
         margin-left: 16px;
     }
 
@@ -149,3 +149,17 @@ button:hover {
     }
 
 }
+
+@media screen and (max-width:555px) {
+    .nav-menu {
+        text-align: center;
+    }
+
+    .menu-items {
+        margin-left: 0;
+    }
+
+    .menu-items-mobile {
+        width: 50%;
+    }
+} */

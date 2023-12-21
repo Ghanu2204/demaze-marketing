@@ -1,5 +1,6 @@
 import ServiceData from "./ServiceData";
 import "./ServicesStyles.css";
+import { GrAnnounce } from "react-icons/gr";
 
 function Services() {
   return (
@@ -13,14 +14,14 @@ function Services() {
         </div>
         <div className="service-cards">
           <ServiceData
-            image="/images/game-dev.png"
+            icon="fa-solid fa-gamepad"
             heading="Game Development"
             text="We focus on expanding your imagination. Our mobile game team 
           offers art and design, user experience design, and cross-platform mobile 
           game development services using Unity and Unreal engines."
           />
           <ServiceData
-            image="/images/app-dev.png"
+            icon="fa-solid fa-mobile-screen-button"
             heading="App Development"
             text="We deliver next-generation iOS, Android and Flutter 
           applications to meet the most demanding customer requirements. 
@@ -28,7 +29,7 @@ function Services() {
           various business segments."
           />
           <ServiceData
-            image="/images/sm.png"
+            icon="fa-solid fa-bullhorn"
             heading="Social Media Marketing"
             text="A successful digital marketing campaign attracts more customers 
         and generates conversions. We have a complete digital marketing service 
@@ -38,14 +39,14 @@ function Services() {
         </div>
         <div className="service-cards">
           <ServiceData
-            image="/images/graphic-design.png"
+            icon="fa-solid fa-brush"
             heading="Graphic Designing"
             text="At Demaze, We offer graphic design solutions to businesses 
           of all types like brochures, branding banners, social media posts, 
           creative portfolios, logos and brand identity designs."
           />
           <ServiceData
-            image="/images/web-dev.png"
+            icon="fa-solid fa-laptop-code"
             heading="Web Development"
             text="We provide end-to-end web app development services designed 
         exclusively to solve your unique business challenges. At Demaze 
@@ -53,7 +54,7 @@ function Services() {
         development."
           />
           <ServiceData
-            image="/images/AI.png"
+            icon="fa-solid fa-robot"
             heading="Artificial Intelligence"
             text="Demaze Technologies offers the best AI development services per 
           the client's requirements. We are experienced in AI development, Natural 

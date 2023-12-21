@@ -36,6 +36,10 @@
     border-radius: 7px;
     padding: 1rem 0.8rem;
 }
+.card-icon i{
+    font-size: 3rem;
+    color: rgb(61, 59, 59);
+}
 
 .card h2 {
     font-size: 1.3rem;

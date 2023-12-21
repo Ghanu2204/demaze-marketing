@@ -1,6 +1,5 @@
 import { Component } from "react";
 import "./NavbarStyles.css";
-// import { Link } from "react-router-dom";
 import { Menuitem } from "./Menuitem";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 

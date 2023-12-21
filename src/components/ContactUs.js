@@ -20,24 +20,29 @@ function ContactUs() {
         </div>
         <div className="contact-detail">
           <h3>Contact Detail</h3>
-          <div className="detail">
-            <i className="fa-solid fa-location-dot" />
-            <p>
-              D-814, Ganesh Glory 11, Jagatpur Road, S.G. Highway, Gota,
-              Ahmedabad, Gujarat, 382470
-            </p>
-          </div>
-          <div className="detail">
-            <i className="fa-solid fa-phone" />
-            <a href="tel:+917016660537">+91 7016660537</a>
-          </div>
-          <div className="detail">
-            <i className="fa-solid fa-envelope" />
-            <a href="mailto:info@demaze.in">info@demaze.in</a>
-          </div>
-          <div className="detail">
-            <i className="fa-brands fa-square-facebook" />
-            <a>demaze Technologies</a>
+
+          <div className="details">
+            <div className="detail">
+              <i className="fa-solid fa-location-dot" />
+              <p>
+                D-814, Ganesh Glory 11, Jagatpur Road, S.G. Highway, Gota,
+                Ahmedabad, Gujarat, 382470
+              </p>
+            </div>
+            <div className="detail">
+              <i className="fa-solid fa-phone" />
+              <a href="tel:+917016660537">+91 7016660537</a>
+            </div>
+            <div className="detail">
+              <i className="fa-solid fa-envelope" />
+              <a href="mailto:info@demaze.in">info@demaze.in</a>
+            </div>
+            <div className="detail">
+              <i className="fa-brands fa-linkedin" />
+              <a href="https://www.linkedin.com/company/demaze-technologies/">
+                Demaze Technologies
+              </a>
+            </div>
           </div>
         </div>
       </div>

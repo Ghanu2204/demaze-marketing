@@ -1,6 +1,7 @@
-import "./IntroStyles.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+import "./HeroStyles.css";
 
-function Intro() {
+function Hero() {
   return (
     <div id="home">
       <div className="outer-container">
@@ -11,7 +12,7 @@ function Intro() {
               Deliver superior customer experince by upgrading your business
               processes through Website & Mobile Application.
             </p>
-            <button className="btn-contact"><a href='contact'>Contact Us</a></button>
+            <button className="btn-contact"><AnchorLink href='#contact'>Contact Us</AnchorLink></button>
           </div>
           <div className="right-section">
             <img alt="image" src="/images/img2.jpg"/>
@@ -22,4 +23,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default Hero;

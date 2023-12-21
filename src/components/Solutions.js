@@ -15,22 +15,22 @@ function Solution() {
           </p>
         </div>
         <div className="solution-cards">
-          <SolutionData image="/images/marketing.png" heading="Marketing" />
-          <SolutionData image="/images/food.png" heading="Food & Beverages" />
-          <SolutionData image="/images/ecommerce.png" heading="eCommerce" />
-          <SolutionData image="/images/sports.png" heading="Sports" />
+          <SolutionData icon="fa-solid fa-bullhorn" heading="Marketing" />
+          <SolutionData icon="fa-solid fa-pizza-slice" heading="Food & Beverages" />
+          <SolutionData icon="fa-solid fa-cart-shopping" heading="eCommerce" />
+          <SolutionData icon="fa-solid fa-table-tennis-paddle-ball" heading="Sports" />
         </div>
         <div className="solution-cards">
-          <SolutionData image="/images/estate.png" heading="Real-estate" />
-          <SolutionData image="/images/socialmedia.png" heading="Social media & Communication" />
-          <SolutionData image="/images/banking.png" heading="Finance, Banking & Insurance" />
-          <SolutionData image="/images/health.png" heading="Wellness and Health" />
+          <SolutionData icon="fa-solid fa-building" heading="Real-estate" />
+          <SolutionData icon="fa-solid fa-hashtag" heading="Social media & Communication" />
+          <SolutionData icon="fa-solid fa-landmark" heading="Finance, Banking & Insurance" />
+          <SolutionData icon="fa-solid fa-kit-medical" heading="Wellness and Health" />
         </div>
         <div className="solution-cards">
-          <SolutionData image="/images/manufacturing.png" heading="Manufacturing" />
-          <SolutionData image="/images/travel.png" heading="Travel & Hospitality" />
-          <SolutionData image="/images/entertainment.png" heading="Entertainment" />
-          <SolutionData image="/images/education.png" heading="Education" />
+          <SolutionData icon="fa-solid fa-industry" heading="Manufacturing" />
+          <SolutionData icon="fa-solid fa-plane-departure" heading="Travel & Hospitality" />
+          <SolutionData icon="fa-solid fa-clapperboard" heading="Entertainment" />
+          <SolutionData icon="fa-solid fa-graduation-cap" heading="Education" />
         </div>
       </div>
     </div>

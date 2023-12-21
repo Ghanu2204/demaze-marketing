@@ -34,6 +34,10 @@
     cursor: pointer;
     padding: 1rem 0.8rem;
 }
+.s-icon{
+    font-size: 2rem;
+    color:rgb(52, 63, 82) ;
+}
 
 .s-card h4 {
     font-size: 1.3rem;
