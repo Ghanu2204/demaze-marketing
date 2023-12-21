@@ -12,7 +12,7 @@ function ContactUs() {
         <div className="contact-form">
           <form>
             <input placeholder="Enter Your Name"></input>
-            <input placeholder="Enter Your Email"></input>
+            <input type="email" placeholder="Enter Your Email"></input>
             <input placeholder="Enter About Subject"></input>
             <textarea placeholder="Enter Your Message" rows="5"></textarea>
             <button>Send Message</button>
