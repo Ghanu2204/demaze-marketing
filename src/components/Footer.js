@@ -1,6 +1,6 @@
 import "./FooterStyles.css";
-
 import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Footer() {
   return (
@@ -28,19 +28,19 @@ function Footer() {
         </div>
         <div className="footer-class">
           <h4>Our Services</h4>
-          <a href="#services">Web Development</a>
-          <a href="#services">App Development</a>
-          <a href="#services">Game Development</a>
-          <a href="#services">Artificial Intelligence</a>
-          <a href="#services">Social Media Marketing</a>
-          <a href="#services">Graphic Designing</a>
+          <AnchorLink href="#services">Web Development</AnchorLink>
+          <AnchorLink href="#services">App Development</AnchorLink>
+          <AnchorLink href="#services">Game Development</AnchorLink>
+          <AnchorLink href="#services">Artificial Intelligence</AnchorLink>
+          <AnchorLink href="#services">Social Media Marketing</AnchorLink>
+          <AnchorLink href="#services">Graphic Designing</AnchorLink>
         </div>
         <div className="footer-class">
           <h4>Important Links</h4>
-          <a href="#services">Our Services</a>
-          <a href="#about">About Us</a>
-          <a href="#solutions">Our Solutions</a>
-          <a href="#contact">Contact Us</a>
+          <AnchorLink href="#services">Our Services</AnchorLink>
+          <AnchorLink href="#about">About Us</AnchorLink>
+          <AnchorLink href="#solutions">Our Solutions</AnchorLink>
+          <AnchorLink href="#contact">Contact Us</AnchorLink>
         </div>
         <div className="footer-class">
           <h4>Contact Us</h4>

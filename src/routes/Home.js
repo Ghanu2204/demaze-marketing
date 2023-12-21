@@ -11,11 +11,11 @@ function Home() {
     <>
       <Navbar />
       <Hero/>
-      {/* <About/>
+      <About/>
       <Services/>
       <Solution/>
       <ContactUs/>
-      <Footer/> */}
+      <Footer/>
     </>
   );
 }
