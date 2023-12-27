@@ -44,7 +44,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-button {
+.btn-nav {
     color: rgb(37, 99, 235);
     background-color: #fff;
     border: 2px solid rgb(37, 99, 235);
@@ -57,7 +57,7 @@ button {
     transition: 0.2s ease-in-out;
 }
 
-button a {
+.btn-nav a {
     text-decoration: none;
     color: rgb(37, 99, 235);
 }
@@ -66,11 +66,11 @@ button a {
     display: none;
 }
 
-button:hover {
+.btn-nav:hover {
     box-shadow: 0 0 12px 2px rgb(119, 162, 255);
 }
 
-/* @media screen and (max-width:850px) {
+@media screen and (max-device-width:768px) {
     .navbar {
         height: 70px;
         z-index: 999;
@@ -87,7 +87,7 @@ button:hover {
         flex-direction: column;
         justify-content: flex-start;
         background-color: #fff;
-        text-align: start;
+        text-align: center;
         width: 100%;
         height: auto;
         position: absolute;
@@ -112,7 +112,6 @@ button:hover {
         width: 100%;
         font-size: 1.2rem;
         padding: 1.5rem 3.5rem;
-        margin-left: 16px;
     }
 
     .menu-items:hover {
@@ -121,7 +120,7 @@ button:hover {
         transition: none;
     }
 
-    button {
+    .btn-nav {
         display: none;
     }
 
@@ -150,10 +149,7 @@ button:hover {
 
 }
 
-@media screen and (max-width:555px) {
-    .nav-menu {
-        text-align: center;
-    }
+@media screen and (max-device-width:480px) {
 
     .menu-items {
         margin-left: 0;
@@ -162,4 +158,4 @@ button:hover {
     .menu-items-mobile {
         width: 50%;
     }
-} */
+}

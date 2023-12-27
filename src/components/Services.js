@@ -7,9 +7,11 @@ function Services() {
     <div id="services">
       <div className="outer">
         <div>
-          <h2>Our <span>Services</span></h2>
+          <h2>
+            Our <span>Services</span>
+          </h2>
           <p>
-            The service we offer is specifically designed to meet your needs.{" "}
+            The service we offer is specifically designed to meet your needs.
           </p>
         </div>
         <div className="service-cards">
@@ -36,8 +38,6 @@ function Services() {
         package that promises augmented website traffic and a fruitful customer 
         base."
           />
-        </div>
-        <div className="service-cards">
           <ServiceData
             icon="fa-solid fa-brush"
             heading="Graphic Designing"

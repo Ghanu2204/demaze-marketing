@@ -4,7 +4,7 @@ import React from "react";
 
 function ContactUs() {
   return (
-    <div id="contact">
+    <div id="contact" className="contact">
       <h1>
         <span>Contact</span> Us
       </h1>

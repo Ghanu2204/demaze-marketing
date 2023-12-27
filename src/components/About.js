@@ -2,15 +2,21 @@ import "./AboutStyles.css";
 
 function About() {
   return (
-    <div id="about">
+    <div className="about" id="about">
       <div>
-        <h1>About <span>Demaze</span> Technologies</h1>
+        <h1>
+          About <span>Demaze</span> Technologies
+        </h1>
       </div>
       <div className="aboutus">
-        <img alt="image" src="/images/img1.jpg" />
+        <div className="about-img">
+          <img alt="image" src="/images/img1.jpg" />
+        </div>
         <div className="about-detail">
           <div className="about-heading">
-            <h3><span>Who</span> Are We?</h3>
+            <h3>
+              <span>Who</span> Are We?
+            </h3>
           </div>
           <div className="about-text">
             <p>
@@ -18,7 +24,7 @@ function About() {
               talents who promote the value of effective communication and
               process transparency.
             </p>
-            <br/>
+            <br />
             <p>
               We are believers in change! A change is driven by technology and
               innovation. We help individuals, start-ups, businesses, and
@@ -29,13 +35,16 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="aboutus">
+      <div className="aboutus-rev">
         <div className="about-detail">
           <div className="about-heading">
-            <h3><span>What</span> We Do Best?</h3>
+            <h3>
+              <span>What</span> We Do Best?
+            </h3>
           </div>
           <div className="about-text">
-            <p>We add the value to your idea's execution.</p><br/>
+            <p>We add the value to your idea's execution.</p>
+            <br />
             <p>
               We start by listening to the ideas, issues, requirements,
               challenges and objectives. The process continues with an effort to
@@ -46,7 +55,9 @@ function About() {
             </p>
           </div>
         </div>
-        <img alt="image" src="/images/about.png" />
+        <div className="about-img">
+          <img alt="image" src="/images/about.png" />
+        </div>
       </div>
     </div>
   );

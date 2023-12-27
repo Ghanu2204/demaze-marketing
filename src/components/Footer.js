@@ -26,39 +26,41 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="footer-class">
-          <h4>Our Services</h4>
-          <AnchorLink href="#services">Web Development</AnchorLink>
-          <AnchorLink href="#services">App Development</AnchorLink>
-          <AnchorLink href="#services">Game Development</AnchorLink>
-          <AnchorLink href="#services">Artificial Intelligence</AnchorLink>
-          <AnchorLink href="#services">Social Media Marketing</AnchorLink>
-          <AnchorLink href="#services">Graphic Designing</AnchorLink>
-        </div>
-        <div className="footer-class">
-          <h4>Important Links</h4>
-          <AnchorLink href="#services">Our Services</AnchorLink>
-          <AnchorLink href="#about">About Us</AnchorLink>
-          <AnchorLink href="#solutions">Our Solutions</AnchorLink>
-          <AnchorLink href="#contact">Contact Us</AnchorLink>
-        </div>
-        <div className="footer-class">
-          <h4>Contact Us</h4>
-          <div className="details">
-            <div className="detail">
-              <i className="fa-solid fa-location-dot" />
-              <p>
-                D-814, Ganesh Glory 11, Jagatpur Road, S.G. Highway, Gota,
-                Ahmedabad, Gujarat, 382470
-              </p>
-            </div>
-            <div className="detail">
-              <i className="fa-solid fa-phone" />
-              <a href="tel:+917016660537">+91 7016660537</a>
-            </div>
-            <div className="detail">
-              <i className="fa-solid fa-envelope" />
-              <a href="mailto:info@demaze.in">info@demaze.in</a>
+        <div className="footer-links-class">
+          <div className="footer-links">
+            <h4>Our Services</h4>
+            <AnchorLink href="#services">Web Development</AnchorLink>
+            <AnchorLink href="#services">App Development</AnchorLink>
+            <AnchorLink href="#services">Game Development</AnchorLink>
+            <AnchorLink href="#services">Artificial Intelligence</AnchorLink>
+            <AnchorLink href="#services">Social Media Marketing</AnchorLink>
+            <AnchorLink href="#services">Graphic Designing</AnchorLink>
+          </div>
+          <div className="footer-links">
+            <h4>Important Links</h4>
+            <AnchorLink href="#services">Our Services</AnchorLink>
+            <AnchorLink href="#about">About Us</AnchorLink>
+            <AnchorLink href="#solutions">Our Solutions</AnchorLink>
+            <AnchorLink href="#contact">Contact Us</AnchorLink>
+          </div>
+          <div className="footer-links">
+            <h4>Contact Us</h4>
+            <div className="details">
+              <div className="detail">
+                <i className="fa-solid fa-location-dot" />
+                <p>
+                  D-814, Ganesh Glory 11, Jagatpur Road, S.G. Highway, Gota,
+                  Ahmedabad, Gujarat, 382470
+                </p>
+              </div>
+              <div className="detail">
+                <i className="fa-solid fa-phone" />
+                <a href="tel:+917016660537">+91 7016660537</a>
+              </div>
+              <div className="detail">
+                <i className="fa-solid fa-envelope" />
+                <a href="mailto:info@demaze.in">info@demaze.in</a>
+              </div>
             </div>
           </div>
         </div>

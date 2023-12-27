@@ -19,14 +19,10 @@ function Solution() {
           <SolutionData icon="fa-solid fa-pizza-slice" heading="Food & Beverages" />
           <SolutionData icon="fa-solid fa-cart-shopping" heading="eCommerce" />
           <SolutionData icon="fa-solid fa-table-tennis-paddle-ball" heading="Sports" />
-        </div>
-        <div className="solution-cards">
           <SolutionData icon="fa-solid fa-building" heading="Real-estate" />
           <SolutionData icon="fa-solid fa-hashtag" heading="Social media & Communication" />
           <SolutionData icon="fa-solid fa-landmark" heading="Finance, Banking & Insurance" />
           <SolutionData icon="fa-solid fa-kit-medical" heading="Wellness and Health" />
-        </div>
-        <div className="solution-cards">
           <SolutionData icon="fa-solid fa-industry" heading="Manufacturing" />
           <SolutionData icon="fa-solid fa-plane-departure" heading="Travel & Hospitality" />
           <SolutionData icon="fa-solid fa-clapperboard" heading="Entertainment" />

@@ -12,7 +12,9 @@ class Navbar extends Component {
     return (
       <>
         <nav className="navbar">
-          <AnchorLink href="#home"><img alt="logo" src="/images/logo.png" /></AnchorLink>
+          <AnchorLink href="#home">
+            <img alt="logo" src="/images/logo.png" />
+          </AnchorLink>
           <div className="menu-icons" onClick={this.handleClicked}>
             <i
               className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
@@ -28,7 +30,9 @@ class Navbar extends Component {
                 </li>
               );
             })}
-            <button className="btn-nav"><AnchorLink href="#contact">Contact Us</AnchorLink></button>
+            <button className="btn-nav">
+              <AnchorLink href="#contact">Contact Us</AnchorLink>
+            </button>
           </ul>
         </nav>
       </>
