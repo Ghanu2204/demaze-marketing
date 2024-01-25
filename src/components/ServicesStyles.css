@@ -1,0 +1,104 @@
+.outer {
+    margin: 4rem;
+}
+
+.outer h2 {
+    font-size: 3rem;
+    margin-top: 10rem;
+    color: rgb(52, 63, 82);
+}
+
+.outer span {
+    background-image: linear-gradient(100deg, #605dba 20%, #3f78e0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    padding-right: 5px;
+}
+
+.outer p {
+    font-size: 1.5rem;
+    color: rgb(96, 105, 123);
+}
+
+.service-cards {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 5%;
+}
+
+.s-card {
+    width: 100%;
+    background-color: #fff;
+    text-align: start;
+    box-shadow: 0 0 12px 2px rgb(119, 162, 255);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem 0.8rem;
+}
+
+.s-icon {
+    font-size: 2rem;
+    color: rgb(52, 63, 82);
+}
+
+.s-card h4 {
+    font-size: 1.3rem;
+    padding: 0.9rem 0 0.2rem 0;
+    margin: 0;
+    color: rgb(52, 63, 82);
+}
+
+.s-card p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-device-width:768px) {
+    .outer {
+        margin: 2rem 3rem;
+    }
+
+    .outer h2 {
+        margin: auto;
+        font-size: 2.5rem;
+    }
+
+    .outer p {
+        font-size: 1.25rem;
+    }
+
+    .service-cards {
+        margin-left: 3rem;
+        grid-template-columns: repeat(2, 45%);
+        gap: 5%;
+    }
+
+    .s-card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width:480px) {
+    .outer {
+        margin: 2rem 1rem;
+    }
+    .outer h2{
+        font-size: 1.5rem;
+    }
+    .outer p{
+        font-size: 1rem;
+    }
+
+    .service-cards {
+        margin: 3rem 0 0 0;
+        grid-template-columns: repeat(1, auto);
+        gap: 2%;
+    }
+    .s-card h4{
+        font-size: 1.1rem;
+    }
+    .s-card p{
+        font-size: 0.9rem;
+    }
+}

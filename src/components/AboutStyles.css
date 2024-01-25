@@ -1,0 +1,112 @@
+.about {
+    margin: 12rem 6rem 2rem 6rem;
+}
+
+.about h1 {
+    font-size: 3rem;
+    color: rgb(52, 63, 82);
+}
+
+.about span {
+    background-image: linear-gradient(100deg, #605dba 20%, #3f78e0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    padding-right: 5px;
+}
+
+.aboutus {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.aboutus-rev {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.about-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-heading {
+    font-size: 2.3rem;
+    color: rgb(52, 63, 82);
+}
+
+.about-heading span {
+    background-image: linear-gradient(100deg, #605dba 20%, #3f78e0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    padding-right: 5px;
+}
+
+.about-img img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.about-text {
+    color: rgb(96, 105, 123);
+    font-size: 1rem;
+    text-align: start;
+    margin: 2rem;
+}
+
+@media screen and (max-device-width:768px) {
+    .about {
+        margin: 10rem 2rem 1rem 2rem;
+    }
+
+    .about h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-detail h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-detail p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-device-width:480px) {
+    .about {
+        margin: 10rem 1rem 1rem 1rem;
+    }
+
+    .about h1 {
+        font-size: 1.5rem;
+    }
+    .about-text{
+        margin: 1rem;
+    }
+
+    .aboutus {
+        flex-direction: column;
+    }
+
+    .aboutus-rev {
+        flex-direction: column-reverse;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-detail {
+        width: 100%;
+    }
+}
